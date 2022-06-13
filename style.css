@@ -1,65 +1,52 @@
 *{
     margin: 0;
     padding: 0;
-
 }
 
 body{
     font-family: 'Outfit', sans-serif;     
     background:  hsl(212, 45%, 89%);
+    max-width: 1440px;
     
 }
 
 .container{
-    background: hsl(212, 45%, 89%);
+    
     display: flex;
-    flex-flow: column nowrap;
+    flex-direction: column; 
+    flex-wrap: nowrap;  
     justify-content: center;
+    align-content: center;
     align-items: center;
-    
+   
+       
 }
 
-.card {
-    
-    background: hsl(0, 0%, 100%);  
-    border-radius: 7px;
-    margin: 30px;
-    padding: 20px;
-    
-    display: grid;
-    grid-template-columns: 300px;
-    
-  
-        
+.cards{
+    background:#fff;
+    width: 300px;
+    border-radius: 12px;
+    padding: 12px;
+    margin-top: 100px;
 }
 
-.card img{
+.card-img img{
     width: 100%;
-    border-radius: 7px;
-    margin-bottom: 20px;
+    border-radius: 12px;
     
 }
 
-.txt-main h2{
+.card-body h2{
     font-size: 700;
+    margin-top: 20px;
     margin-bottom: 20px;
     text-align: center;
 }
 
-.txt-main p{
+.card-body p{
     font-size: 15px;
     text-align: center;
     margin-bottom: 20px;
     letter-spacing: 1px;
     color: #6a6a6a;
-    
-}
-
-
-.attribution { 
-    
-    font-size: 11px; text-align: center; 
-}
-.attribution a { 
-    color: hsl(228, 45%, 44%); 
 }
